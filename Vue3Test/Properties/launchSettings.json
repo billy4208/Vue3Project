@@ -1,0 +1,26 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "https://mylocalpc.com/vue3test",
+      "sslPort": 0
+    }
+  },
+  "$schema": "https://json.schemastore.org/appsettings",
+  "profiles": {
+    "IIS": {
+      "commandName": "IIS",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IISTest": {
+      "commandName": "IIS",
+      "launchUrl": "https://mylocalpc.com/vue3test",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
